@@ -36,6 +36,7 @@
             this.btnClose = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel1 = new System.Windows.Forms.Panel();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
@@ -45,7 +46,6 @@
             this.txtUsername = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.txtBirthday = new Bunifu.Framework.UI.BunifuDatepicker();
             this.label1 = new System.Windows.Forms.Label();
-            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
             this.bunifuGradientPanel2.SuspendLayout();
@@ -130,6 +130,31 @@
             this.bunifuGradientPanel2.Size = new System.Drawing.Size(425, 517);
             this.bunifuGradientPanel2.TabIndex = 1;
             // 
+            // bunifuThinButton21
+            // 
+            this.bunifuThinButton21.ActiveBorderThickness = 1;
+            this.bunifuThinButton21.ActiveCornerRadius = 10;
+            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.SpringGreen;
+            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.SpringGreen;
+            this.bunifuThinButton21.BackColor = System.Drawing.Color.White;
+            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
+            this.bunifuThinButton21.ButtonText = "Sign me Up!";
+            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton21.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton21.ForeColor = System.Drawing.Color.DimGray;
+            this.bunifuThinButton21.IdleBorderThickness = 1;
+            this.bunifuThinButton21.IdleCornerRadius = 1;
+            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.Gainsboro;
+            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.SpringGreen;
+            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.DimGray;
+            this.bunifuThinButton21.Location = new System.Drawing.Point(16, 455);
+            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.bunifuThinButton21.Name = "bunifuThinButton21";
+            this.bunifuThinButton21.Size = new System.Drawing.Size(385, 53);
+            this.bunifuThinButton21.TabIndex = 7;
+            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // panel1
             // 
             this.panel1.Controls.Add(this.radioButton2);
@@ -180,7 +205,7 @@
             this.txtConfirmPassword.Name = "txtConfirmPassword";
             this.txtConfirmPassword.Size = new System.Drawing.Size(385, 40);
             this.txtConfirmPassword.TabIndex = 3;
-            this.txtConfirmPassword.Text = "Confirm Password";
+            this.txtConfirmPassword.Text = "  Confirm Password";
             this.txtConfirmPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // txtPassword
@@ -198,7 +223,7 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(385, 40);
             this.txtPassword.TabIndex = 2;
-            this.txtPassword.Text = "Password";
+            this.txtPassword.Text = "  Password";
             this.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // txtEmail
@@ -216,7 +241,7 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(385, 40);
             this.txtEmail.TabIndex = 1;
-            this.txtEmail.Text = "Email";
+            this.txtEmail.Text = "  Email";
             this.txtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // txtUsername
@@ -234,7 +259,7 @@
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(385, 40);
             this.txtUsername.TabIndex = 0;
-            this.txtUsername.Text = "Username";
+            this.txtUsername.Text = "  Username";
             this.txtUsername.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // txtBirthday
@@ -263,31 +288,6 @@
             this.label1.Size = new System.Drawing.Size(195, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Sign up to Code dạo";
-            // 
-            // bunifuThinButton21
-            // 
-            this.bunifuThinButton21.ActiveBorderThickness = 1;
-            this.bunifuThinButton21.ActiveCornerRadius = 10;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.SpringGreen;
-            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.SpringGreen;
-            this.bunifuThinButton21.BackColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "SIGN UP";
-            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton21.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.DimGray;
-            this.bunifuThinButton21.IdleBorderThickness = 1;
-            this.bunifuThinButton21.IdleCornerRadius = 1;
-            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.Gainsboro;
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.SpringGreen;
-            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.DimGray;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(16, 455);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(385, 53);
-            this.bunifuThinButton21.TabIndex = 7;
-            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // fmSignUp
             // 

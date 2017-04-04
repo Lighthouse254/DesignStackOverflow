@@ -16,7 +16,7 @@ namespace DesignStackOverflow
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fmSignUp());
+            Application.Run(new ForgotPassword());
         }
     }
 }
